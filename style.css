@@ -15,6 +15,7 @@ header{
 .cabecalho{
     background-color: #f8f4135e;
     color: rgb(0, 0, 0);
+    right: 40px;
 }
 
 
@@ -22,7 +23,6 @@ header{
     display: flex;
     position: relative;
     left: 300px;
-    top: 20px;
 
 }
 
