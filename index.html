@@ -1,30 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Savory Secret</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Savory Secrets</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Savory Secret</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <img src="logo.png" alt="Logo do Savory Secrets" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#menu">Cardápio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>Discover the Secret Flavors</h2>
-        <p>Welcome to Savory Secret, where culinary delights await!</p>
+    
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo ao Savory Secrets, o seu destino para receitas deliciosas e inspiração culinária.</p>
+        </div>
     </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Cardápio</h2>
+            <p>Confira as nossas deliciosas opções do cardápio:</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco:</p>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Savory Secret. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Savory Secrets. Todos os direitos reservados.</p>
+        </div>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
